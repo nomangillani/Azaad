@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+    <include layout="@layout/navbar"></include>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        android:focusedByDefault="false"
+        android:focusable="false"
+        app:contentPadding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardElevation="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gold"
+                    android:textColor="@color/goldenrod"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Your Plain"
+                    android:textColor="@color/black"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1">
+
+                </TextView>
+
+
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unlimited profile views"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unlimited direct messages"
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unlimited contact details"
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Able to veiw contact details"
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gold-$18.99 usd/month"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gold for 6 months=$55.99 usd"
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gold for a year=$80.99 usd"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="days left"
+                    android:textColor="@color/black"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1">
+
+                </TextView>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        android:focusedByDefault="false"
+        android:focusable="false"
+        app:contentPadding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardElevation="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Silver"
+                    android:textColor="@color/silver"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Your Plain"
+                    android:textColor="@color/black"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1">
+
+                </TextView>
+
+
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="50 profile views"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10 direct messages"
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="silver-$12.99 usd/month"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Silver for 6 months=$37.99 usd"
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Silver for a year=$60.99 usd"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="days left"
+                    android:textColor="@color/black"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1">
+
+                </TextView>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        android:focusedByDefault="false"
+        android:focusable="false"
+        app:contentPadding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardElevation="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bronze"
+                    android:textColor="@color/rosy_brown"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Your Plain"
+                    android:textColor="@color/black"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1">
+
+                </TextView>
+
+
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10 profile views"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2 direct messages"
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bronze-$6.99 usd/month"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bronze for 6 months=$21.99 usd"
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bronze for year=$40.99 usd"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="days left"
+                    android:textColor="@color/black"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1">
+
+                </TextView>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

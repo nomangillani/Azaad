@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            android:focusedByDefault="false"
+            android:focusable="false"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            app:contentPadding="10dp"
+            app:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="105dp"
+                    android:layout_height="105dp"
+                    android:id="@+id/image_message_profile"
+                    android:focusable="false"
+                    android:src="@drawable/background"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:focusable="false"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Samantha Summer"
+                        android:focusable="false"
+                        android:id="@+id/text_message_name"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/text_message_body"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:focusable="false"
+                        android:text=" Hello how wra   hello how are you are you fine or noat im am waityin gfor your imedialkylt"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/text_message_time"
+                        android:textColor="@color/black"
+                        android:focusable="false"
+                        android:text="Current time"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+

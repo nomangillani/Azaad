@@ -1,0 +1,137 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <include layout="@layout/chattoolbar"></include>
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <ListView
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:id="@+id/listviewmessages"
+                android:layout_width="match_parent"
+                android:stackFromBottom="true"
+                android:layout_weight="1.0"
+                android:layout_height="fill_parent">
+
+            </ListView>
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:id="@+id/datalayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:scrollbars="vertical"
+                    android:clipToPadding="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scrollingCache="true" />
+
+
+
+                <View android:background="@drawable/bg_gradient_soft"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0dip"
+                    android:layout_alignParentTop="true"
+                    android:rotation="180.0" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </FrameLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/sendlayout"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="4dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1.0"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="18.0dip"
+            app:cardElevation="1.0dip">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/inputText"
+                    android:background="@android:color/transparent"
+                    android:padding="4dp"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:hint="Write a message..."
+                    android:layout_weight="1.0"
+                    android:maxLines="3"
+                    android:minLines="1"
+                    android:inputType="textMultiLine"
+                    android:imeOptions="actionSearch" />
+                <!--<ImageView
+                    android:background="?selectableItemBackground"
+                    android:padding="@dimen/spacing_middle" android:clickable="true"
+                    android:layout_width="@dimen/spacing_xxlarge"
+                    android:layout_height="@dimen/spacing_xxlarge"
+                    android:tint="#ff00897b"
+                    app:srcCompat="@drawable/ic_photo_camera" />-->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:gravity="center"
+            android:id="@+id/butSend"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:tint="@android:color/white"
+            app:backgroundTint="@color/colorPrimary"
+            app:elevation="1.0dip"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/ic_launcher_background"
+            app:useCompatPadding="false"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

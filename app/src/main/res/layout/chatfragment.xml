@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+app:tabTextColor="@color/white"
+        app:tabIndicatorColor="@color/white">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chat"
+            />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tab2"
+            android:text="Request"
+            />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tab3"
+            android:text="Pending"
+            />
+
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/simpleViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+</LinearLayout>

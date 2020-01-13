@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+    <include layout="@layout/homenavbar">
+
+    </include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"> <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Age"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Min"
+                            android:textColor="@color/white"
+                            android:textSize="18dp"/>
+                        <EditText
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:editable="false"
+                            android:focusable="false"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:id="@+id/minage"
+                            android:textColor="@color/slidertext"
+                            android:padding="10dp"
+                            android:drawableRight="@drawable/dropdown_iconf"
+                            android:background="@drawable/buttonwhiteback"
+                            android:text="none"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Max"
+                            android:textColor="@color/white"
+                            android:textSize="18dp"/>
+                        <EditText
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:textColor="@color/slidertext"
+                            android:textSize="18dp"
+                            android:padding="10dp"
+                            android:textStyle="bold"
+                            android:editable="false"
+                            android:id="@+id/maxage"
+                            android:focusable="false"
+                            android:drawableRight="@drawable/dropdown_iconf"
+                            android:background="@drawable/buttonwhiteback"
+                            android:text="none"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"> <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Height"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Min"
+                            android:textColor="@color/white"
+                            android:textSize="18dp"/>
+                        <EditText
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/slidertext"
+                            android:padding="10dp"
+                            android:editable="false"
+                            android:id="@+id/minheight"
+                            android:focusable="false"
+                            android:drawableRight="@drawable/dropdown_iconf"
+                            android:background="@drawable/buttonwhiteback"
+                            android:text="none"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Max"
+                            android:textColor="@color/white"
+                            android:textSize="18dp"/>
+                        <EditText
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:textColor="@color/slidertext"
+                            android:textSize="18dp"
+                            android:padding="10dp"
+                            android:editable="false"
+
+                            android:textStyle="bold"
+                            android:id="@+id/maxheight"
+                            android:focusable="false"
+                            android:drawableRight="@drawable/dropdown_iconf"
+                            android:background="@drawable/buttonwhiteback"
+                            android:text="none"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cast"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:textSize="18dp"
+                                android:textColor="#000"
+                                android:padding="10dp"
+                                android:editable="false"
+                                android:focusable="false"
+                                android:id="@+id/cast"
+
+                                android:drawableRight="@drawable/dropdown_iconf"
+                                android:background="@drawable/buttonwhiteback"
+                                android:text="none"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Education"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:textSize="18dp"
+                                android:textColor="#000"
+                                android:padding="10dp"
+                                android:editable="false"
+                                android:focusable="false"
+                                android:id="@+id/education"
+
+                                android:drawableRight="@drawable/dropdown_iconf"
+                                android:background="@drawable/buttonwhiteback"
+                                android:text="none"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <Button
+            android:id="@+id/savefilter"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="106dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginRight="105dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_gradient"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="Save"
+
+            android:textAllCaps="false"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

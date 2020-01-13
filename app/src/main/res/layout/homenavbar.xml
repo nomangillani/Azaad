@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/homenavbar"
+    android:layout_height="?attr/actionBarSize">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:id="@+id/navtittle"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:text="Azaad"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:id="@+id/filter"
+            android:textColor="@color/white"
+            android:text="Filter"/>
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.Toolbar>
